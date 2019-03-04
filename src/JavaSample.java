@@ -135,7 +135,7 @@ public class JavaSample {
             else
                 info+="Test: " + TESTS_NAMES[num] + " - failed" + "\n";
         }
-        infoBox(info,"Tests Results");
+        infoBox(info);
     }
 
     // receives a type- false if the test should use the wrong credentials and true otherwise.
